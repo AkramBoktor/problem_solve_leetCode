@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roman_to_Integer", "problem_solve_leetCode\Roman_to_Integer.csproj", "{1F8C5E8D-EDC2-4A02-80DA-2E4652FF9F08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ransom Note", "Ransom Note\Ransom Note.csproj", "{A72F6594-B8D5-44A8-A350-C5853FE34563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ransom Note", "Ransom Note\Ransom Note.csproj", "{A72F6594-B8D5-44A8-A350-C5853FE34563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fizz Buzz", "Fizz Buzz\Fizz Buzz.csproj", "{BAA8DCE7-1C4A-42B5-910A-63D7E2C4B010}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A72F6594-B8D5-44A8-A350-C5853FE34563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A72F6594-B8D5-44A8-A350-C5853FE34563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A72F6594-B8D5-44A8-A350-C5853FE34563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA8DCE7-1C4A-42B5-910A-63D7E2C4B010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA8DCE7-1C4A-42B5-910A-63D7E2C4B010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA8DCE7-1C4A-42B5-910A-63D7E2C4B010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA8DCE7-1C4A-42B5-910A-63D7E2C4B010}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
