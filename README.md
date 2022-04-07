@@ -12,3 +12,9 @@ Memory Usage: 37.2 MB\
 Status: Accepted
 Runtime: 150 ms
 Memory Usage: 40.4 MB
+
+# Fizz_Buzz
+8 / 8 test cases passed.
+Status: Accepted
+Runtime: 187 ms
+Memory Usage: 47.4 MB
