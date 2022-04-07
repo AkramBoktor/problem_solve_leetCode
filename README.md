@@ -18,3 +18,9 @@ Memory Usage: 40.4 MB
 Status: Accepted
 Runtime: 187 ms
 Memory Usage: 47.4 MB
+
+#  Plaindrom Linked List
+86 / 86 test cases passed.
+Status: Accepted
+Runtime: 391 ms
+Memory Usage: 52.1 MB
