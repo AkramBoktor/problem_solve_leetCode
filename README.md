@@ -31,3 +31,9 @@ Memory Usage: 52.1 MB
 Status: Accepted
 Runtime: 145 ms
 Memory Usage: 36.6 MB
+
+# The K Weakest Rows in a Matrix
+52 / 52 test cases passed.
+Status: Accepted
+Runtime: 222 ms
+Memory Usage: 45.4 MB
