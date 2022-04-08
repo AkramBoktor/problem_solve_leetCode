@@ -24,3 +24,10 @@ Memory Usage: 47.4 MB
 Status: Accepted
 Runtime: 391 ms
 Memory Usage: 52.1 MB
+
+
+# Middle of the Linked List
+36 / 36 test cases passed.
+Status: Accepted
+Runtime: 145 ms
+Memory Usage: 36.6 MB
