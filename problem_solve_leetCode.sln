@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fizz Buzz", "Fizz Buzz\Fizz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome Linked List", "Palindrome Linked List\Palindrome Linked List.csproj", "{B2F81E6B-26FE-49C6-B7FF-3002DB55E680}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Middle of the Linked List", "Middle of the Linked List\Middle of the Linked List.csproj", "{1A582562-8901-42BF-A188-EB807F6AEF91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Middle of the Linked List", "Middle of the Linked List\Middle of the Linked List.csproj", "{1A582562-8901-42BF-A188-EB807F6AEF91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K Weakest Rows in a Matrix", "K Weakest Rows in a Matrix\K Weakest Rows in a Matrix.csproj", "{578B436F-0448-41AE-827E-BA55BB09A1E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1A582562-8901-42BF-A188-EB807F6AEF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A582562-8901-42BF-A188-EB807F6AEF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A582562-8901-42BF-A188-EB807F6AEF91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578B436F-0448-41AE-827E-BA55BB09A1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578B436F-0448-41AE-827E-BA55BB09A1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578B436F-0448-41AE-827E-BA55BB09A1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578B436F-0448-41AE-827E-BA55BB09A1E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

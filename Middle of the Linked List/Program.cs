@@ -19,7 +19,12 @@ namespace Middle_of_the_Linked_List
             two.next = three;
             three.next = four;
             four.next = five;
-            Console.WriteLine(Program.MiddleNode(one));
+         ListNode newMiddleNode =  Program.MiddleNode(one);
+            while (newMiddleNode != null)
+            {
+                Console.WriteLine(newMiddleNode.val);
+                newMiddleNode= newMiddleNode.next;
+            }
         }
 
         public class ListNode
