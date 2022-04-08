@@ -37,3 +37,9 @@ Memory Usage: 36.6 MB
 Status: Accepted
 Runtime: 222 ms
 Memory Usage: 45.4 MB
+
+# Number Of Steps
+204 / 204 test cases passed.
+Status: Accepted
+Runtime: 25 ms
+Memory Usage: 25.4 MB
