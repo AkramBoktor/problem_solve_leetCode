@@ -43,3 +43,9 @@ Memory Usage: 45.4 MB
 Status: Accepted
 Runtime: 25 ms
 Memory Usage: 25.4 MB
+
+# Maximum Wealth
+34 / 34 test cases passed.
+Status: Accepted
+Runtime: 80 ms
+Memory Usage: 39.3 MB
