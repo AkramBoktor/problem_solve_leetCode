@@ -49,3 +49,9 @@ Memory Usage: 25.4 MB
 Status: Accepted
 Runtime: 80 ms
 Memory Usage: 39.3 MB
+
+# Baseball Game
+39 / 39 test cases passed.
+Status: Accepted
+Runtime: 98 ms
+Memory Usage: 38.1 MB
