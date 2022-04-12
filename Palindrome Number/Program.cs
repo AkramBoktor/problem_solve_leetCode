@@ -12,6 +12,7 @@ namespace Palindrome_Number
 
         public static bool IsPalindrome(int x)
         {
+            if (x.ToString().Length == 1) return true;
             string reverseNumber = string.Empty;
             int lengthOfInteger = x.ToString().Length-1;
 
