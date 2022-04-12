@@ -55,3 +55,15 @@ Memory Usage: 39.3 MB
 Status: Accepted
 Runtime: 98 ms
 Memory Usage: 38.1 MB
+
+# Two Sum
+57 / 57 test cases passed.
+Status: Accepted
+Runtime: 256 ms
+Memory Usage: 42.9 MB
+
+# Plaindrom Number
+11510 / 11510 test cases passed.
+Status: Accepted
+Runtime: 92 ms
+Memory Usage: 29.1 MB
