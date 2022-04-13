@@ -67,3 +67,9 @@ Memory Usage: 42.9 MB
 Status: Accepted
 Runtime: 92 ms
 Memory Usage: 29.1 MB
+
+# Longest Common Prefix
+123 / 123 test cases passed.
+Status: Accepted
+Runtime: 118 ms
+Memory Usage: 40.5 MB
