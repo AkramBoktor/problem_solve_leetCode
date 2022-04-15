@@ -10,13 +10,13 @@ namespace Longest_Common_Prefix
         static void Main(string[] args)
         {
             Console.WriteLine(Program.LongestCommonPrefix(new string[] { "flower", "flow", "flight" }));
-            Console.WriteLine(Program.LongestCommonPrefix(new string[] { "dog", "racecar", "car" }));
-            Console.WriteLine(Program.LongestCommonPrefix(new string[] { "flower", "fkow" }));
-            Console.WriteLine(Program.LongestCommonPrefix(new string[] { "cir", "car" }));
-            Console.WriteLine(Program.LongestCommonPrefix(new string[] { "aac", "a", "ccc" }));
-            Console.WriteLine(Program.LongestCommonPrefix(new string[] { "aca", "cba" }));
-            Console.WriteLine("SS" + Program.LongestCommonPrefix(new string[] { "ab", "a" }));
-            Console.WriteLine(Program.LongestCommonPrefix(new string[] { "flower", "flower", "flower", "flower" }));
+            //Console.WriteLine(Program.LongestCommonPrefix(new string[] { "dog", "racecar", "car" }));
+            //Console.WriteLine(Program.LongestCommonPrefix(new string[] { "flower", "fkow" }));
+            //Console.WriteLine(Program.LongestCommonPrefix(new string[] { "cir", "car" }));
+            //Console.WriteLine(Program.LongestCommonPrefix(new string[] { "aac", "a", "ccc" }));
+            //Console.WriteLine(Program.LongestCommonPrefix(new string[] { "aca", "cba" }));
+            //Console.WriteLine("SS" + Program.LongestCommonPrefix(new string[] { "ab", "a" }));
+            //Console.WriteLine(Program.LongestCommonPrefix(new string[] { "flower", "flower", "flower", "flower" }));
 
         }
 
@@ -81,21 +81,36 @@ namespace Longest_Common_Prefix
             #endregion
 
 
-            if (strs == null || strs.Length == 0)
-                return "";
+            //if (strs == null || strs.Length == 0)
+            //    return "";
 
-            Array.Sort(strs);
-            String first = strs[0];
-            String last = strs[strs.Length - 1];
-            int c = 0;
-            while (c < first.Length)
-            {
-                if (first[c] == last[c])
-                    c++;
-                else
-                    break;
-            }
-            return c == 0 ? "" : first.Substring(0, c);
+            //Array.Sort(strs);
+            //String first = strs[0];
+            //String last = strs[strs.Length - 1];
+            //int c = 0;
+            //while (c < first.Length)
+            //{
+            //    if (first[c] == last[c])
+            //        c++;
+            //    else
+            //        break;
+            //}
+            //return c == 0 ? "" : first.Substring(0, c);
+
+     
+                if (strs.Length == 0) return "";
+                string prefix = strs[0];
+                for (int i = 1; i < strs.Length; i++)
+                {
+                    while (strs[i].IndexOf(prefix) != 0)
+                    {
+                        prefix = prefix.Substring(0, prefix.Length - 1);
+                        if (prefix == "") return "";
+                    }
+                }
+                return prefix;
+
+         
         }
     }
 }

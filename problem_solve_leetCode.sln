@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two Sum", "Two Sum\Two Sum.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome Number", "Palindrome Number\Palindrome Number.csproj", "{6D4FEAD3-4EC0-4ADE-8626-A63897EDC6E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest Common Prefix", "Longest Common Prefix\Longest Common Prefix.csproj", "{76CF7D3E-DBE5-42DD-A356-3C651167A1D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longest Common Prefix", "Longest Common Prefix\Longest Common Prefix.csproj", "{76CF7D3E-DBE5-42DD-A356-3C651167A1D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Parentheses", "Valid Parentheses\Valid Parentheses.csproj", "{06BC490F-6EFB-4F1E-A0E9-7D1176994EDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{76CF7D3E-DBE5-42DD-A356-3C651167A1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76CF7D3E-DBE5-42DD-A356-3C651167A1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76CF7D3E-DBE5-42DD-A356-3C651167A1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06BC490F-6EFB-4F1E-A0E9-7D1176994EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06BC490F-6EFB-4F1E-A0E9-7D1176994EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06BC490F-6EFB-4F1E-A0E9-7D1176994EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06BC490F-6EFB-4F1E-A0E9-7D1176994EDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
