@@ -75,7 +75,7 @@ Runtime: 118 ms
 Memory Usage: 40.5 MB
 
 
-#Valid Parentheses
+# Valid Parentheses
 91 / 91 test cases passed.
 Status: Accepted
 Runtime: 90 ms
