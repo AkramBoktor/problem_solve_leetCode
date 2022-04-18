@@ -36,6 +36,7 @@ namespace Merge_Two_Sorted_Lists
             {
                 this.val = val;
                 this.next = next;
+                System.Environment.Exit(-1);
             }
 
         }
