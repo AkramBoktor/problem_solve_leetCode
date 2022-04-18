@@ -80,3 +80,9 @@ Memory Usage: 40.5 MB
 Status: Accepted
 Runtime: 90 ms
 Memory Usage: 50.3 MB
+
+# Merge Two Sorted Lists
+208 / 208 test cases passed.
+Status: Accepted
+Runtime: 91 ms
+Memory Usage: 38 MB
