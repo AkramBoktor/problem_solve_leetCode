@@ -86,3 +86,10 @@ Memory Usage: 50.3 MB
 Status: Accepted
 Runtime: 91 ms
 Memory Usage: 38 MB
+
+
+# Remove Duplicated element
+361 / 361 test cases passed.
+Status: Accepted
+Runtime: 204 ms
+Memory Usage: 45 MB
