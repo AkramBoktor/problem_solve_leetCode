@@ -93,3 +93,10 @@ Memory Usage: 38 MB
 Status: Accepted
 Runtime: 204 ms
 Memory Usage: 45 MB
+
+# Implement str
+
+75 / 75 test cases passed.
+Status: Accepted
+Runtime: 103 ms
+Memory Usage: 35.9 MB
