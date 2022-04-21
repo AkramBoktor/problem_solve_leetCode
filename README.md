@@ -100,3 +100,10 @@ Memory Usage: 45 MB
 Status: Accepted
 Runtime: 103 ms
 Memory Usage: 35.9 MB
+
+# Hashing Set
+
+32 / 32 test cases passed.
+Status: Accepted
+Runtime: 341 ms
+Memory Usage: 61.1 MB
