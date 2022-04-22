@@ -107,3 +107,11 @@ Memory Usage: 35.9 MB
 Status: Accepted
 Runtime: 341 ms
 Memory Usage: 61.1 MB
+
+
+# Search Insert
+
+64 / 64 test cases passed.
+Status: Accepted
+Runtime: 91 ms
+Memory Usage: 39.3 MB
