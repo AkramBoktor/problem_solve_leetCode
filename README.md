@@ -121,3 +121,9 @@ Memory Usage: 39.3 MB
 Status: Accepted
 Runtime: 385 ms
 Memory Usage: 51.2 MB
+
+# Max_sub_Array
+209 / 209 test cases passed.
+Status: Accepted
+Runtime: 232 ms
+Memory Usage: 47.7 MB
