@@ -115,3 +115,9 @@ Memory Usage: 61.1 MB
 Status: Accepted
 Runtime: 91 ms
 Memory Usage: 39.3 MB
+
+# Hashing Map
+36 / 36 test cases passed.
+Status: Accepted
+Runtime: 385 ms
+Memory Usage: 51.2 MB
