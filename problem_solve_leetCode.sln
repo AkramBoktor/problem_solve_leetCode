@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Design HashMap", "Design Ha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Max Sub Array", "Max Sub Array\Max Sub Array.csproj", "{B9208946-0D22-400C-A9FF-A1EFFD5E7106}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Length of Last Word", "Length of Last Word\Length of Last Word.csproj", "{44521C07-78F9-42AC-A04A-CA4E4B1F16A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Length of Last Word", "Length of Last Word\Length of Last Word.csproj", "{44521C07-78F9-42AC-A04A-CA4E4B1F16A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plus One", "Plus One\Plus One.csproj", "{69E0E29F-5F1C-461A-9BB4-EB7A241D145B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{44521C07-78F9-42AC-A04A-CA4E4B1F16A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44521C07-78F9-42AC-A04A-CA4E4B1F16A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44521C07-78F9-42AC-A04A-CA4E4B1F16A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E0E29F-5F1C-461A-9BB4-EB7A241D145B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E0E29F-5F1C-461A-9BB4-EB7A241D145B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E0E29F-5F1C-461A-9BB4-EB7A241D145B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E0E29F-5F1C-461A-9BB4-EB7A241D145B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
