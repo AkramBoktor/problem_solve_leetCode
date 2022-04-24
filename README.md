@@ -133,3 +133,10 @@ Memory Usage: 47.7 MB
 Status: Accepted
 Runtime: 64 ms
 Memory Usage: 36.8 MB
+
+# Plus One
+111 / 111 test cases passed.
+Status: Accepted
+Runtime: 148 ms
+Memory Usage: 43.1 MB
+
