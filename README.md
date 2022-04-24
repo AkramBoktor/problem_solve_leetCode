@@ -127,3 +127,9 @@ Memory Usage: 51.2 MB
 Status: Accepted
 Runtime: 232 ms
 Memory Usage: 47.7 MB
+
+# Length of Last Word
+58 / 58 test cases passed.
+Status: Accepted
+Runtime: 64 ms
+Memory Usage: 36.8 MB
