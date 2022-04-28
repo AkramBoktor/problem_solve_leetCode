@@ -51,7 +51,43 @@ namespace Remove_Duplicates_from_Sorted_List
                     newListNodeWithoutDuplicated = newNode;
             }
             return newListNodeWithoutDuplicated;
-        }
+
+            #region by list 
+            //public ListNode DeleteDuplicates(ListNode head)
+            //{
+            //    if (head == null) return null;
+            //    List<int> newListSorted = new List<int>();
+            //    ListNode newListNodeWithoutDuplicated = new ListNode();
+            //    while (head != null)
+            //    {
+            //        if (!newListSorted.Contains(head.val))
+            //        {
+            //            newListSorted.Add(head.val);
+            //        }
+            //        head = head.next;
+
+            //    }
+
+            //    newListSorted.Sort();
+
+            //    for (int i = newListSorted.Count - 1; i >= 0; i--)
+
+            //    {
+
+            //        ListNode newNode = new ListNode(newListSorted[i]);
+            //        if (i != newListSorted.Count - 1)
+            //            newNode.next = newListNodeWithoutDuplicated;
+
+            //        newListNodeWithoutDuplicated = newNode;
+
+
+
+            //    }
+
+
+            //    return newListNodeWithoutDuplicated;
+                #endregion
+            }
 
         public class ListNode
         {
