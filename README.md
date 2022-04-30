@@ -140,3 +140,8 @@ Status: Accepted
 Runtime: 148 ms
 Memory Usage: 43.1 MB
 
+# Remove Duplicated From Sorted List
+166 / 166 test cases passed.
+Status: Accepted
+Runtime: 93 ms
+Memory Usage: 41.6 MB
