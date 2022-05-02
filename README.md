@@ -145,3 +145,9 @@ Memory Usage: 43.1 MB
 Status: Accepted
 Runtime: 93 ms
 Memory Usage: 41.6 MB
+
+# Binary Tree Inorder Traversal
+70 / 70 test cases passed.
+Status: Accepted
+Runtime: 233 ms
+Memory Usage: 40.8 MB
