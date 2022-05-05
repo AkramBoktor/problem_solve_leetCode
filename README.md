@@ -151,3 +151,9 @@ Memory Usage: 41.6 MB
 Status: Accepted
 Runtime: 233 ms
 Memory Usage: 40.8 MB
+
+# Sort Array By Parity
+285 / 285 test cases passed.
+Status: Accepted
+Runtime: 200 ms
+Memory Usage: 45.2 MB
