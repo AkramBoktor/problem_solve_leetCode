@@ -65,7 +65,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merge Sorted Array", "Merge
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binary_Tree Inorder Traversal", "Binary_Tree Inorder Traversal\Binary_Tree Inorder Traversal.csproj", "{E4C4208B-ED88-4EC4-8731-9E914ED21D73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort Array By Parity", "Sort Array By Parity\Sort Array By Parity.csproj", "{A8928D82-D976-4F2D-A603-5915E9E0DE79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sort Array By Parity", "Sort Array By Parity\Sort Array By Parity.csproj", "{A8928D82-D976-4F2D-A603-5915E9E0DE79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is Same Tree", "Is Same Tree\Is Same Tree.csproj", "{16B314BA-4790-4D02-A451-58C874575922}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +203,10 @@ Global
 		{A8928D82-D976-4F2D-A603-5915E9E0DE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8928D82-D976-4F2D-A603-5915E9E0DE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8928D82-D976-4F2D-A603-5915E9E0DE79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B314BA-4790-4D02-A451-58C874575922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B314BA-4790-4D02-A451-58C874575922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B314BA-4790-4D02-A451-58C874575922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B314BA-4790-4D02-A451-58C874575922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
