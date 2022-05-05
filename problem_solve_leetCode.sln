@@ -67,7 +67,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binary_Tree Inorder Travers
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sort Array By Parity", "Sort Array By Parity\Sort Array By Parity.csproj", "{A8928D82-D976-4F2D-A603-5915E9E0DE79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is Same Tree", "Is Same Tree\Is Same Tree.csproj", "{16B314BA-4790-4D02-A451-58C874575922}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Is Same Tree", "Is Same Tree\Is Same Tree.csproj", "{16B314BA-4790-4D02-A451-58C874575922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implement Stack using Queues", "Implement Stack using Queues\Implement Stack using Queues.csproj", "{A0EBB611-F618-4735-A729-279A12B2303B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +209,10 @@ Global
 		{16B314BA-4790-4D02-A451-58C874575922}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16B314BA-4790-4D02-A451-58C874575922}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16B314BA-4790-4D02-A451-58C874575922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0EBB611-F618-4735-A729-279A12B2303B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0EBB611-F618-4735-A729-279A12B2303B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0EBB611-F618-4735-A729-279A12B2303B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0EBB611-F618-4735-A729-279A12B2303B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
