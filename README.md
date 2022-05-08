@@ -163,3 +163,9 @@ Memory Usage: 45.2 MB
 Status: Accepted
 Runtime: 156 ms
 Memory Usage: 40.6 MB
+
+# Intersection Two linked List
+39 / 39 test cases passed.
+Status: Accepted
+Runtime: 2028 ms
+Memory Usage: 45.1 MB
