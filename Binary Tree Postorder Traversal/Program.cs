@@ -4,7 +4,11 @@ using System.Collections.Generic;
 namespace Binary_Tree_Postorder_Traversal
 {
     class Program
-    {
+	{
+		
+		// indoreorder left root right
+		// preorder root left right
+		// postorder left right root
 		static void Main(string[] args)
 		{
 			TreeNode one = new TreeNode(1);
