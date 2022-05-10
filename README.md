@@ -169,3 +169,9 @@ Memory Usage: 40.6 MB
 Status: Accepted
 Runtime: 2028 ms
 Memory Usage: 45.1 MB
+
+# Maximum Depth of Binary Tree
+39 / 39 test cases passed.
+Status: Accepted
+Runtime: 128 ms
+Memory Usage: 37.9 MB
