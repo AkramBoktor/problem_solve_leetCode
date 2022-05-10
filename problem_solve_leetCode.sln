@@ -79,7 +79,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Is Symmetric", "Is Symmetri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intersection of Two Linked Lists", "Intersection of Two Linked Lists\Intersection of Two Linked Lists.csproj", "{4C9267F4-C009-45A3-A09B-AACA1DE1A461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum Depth of Binary Tree", "Maximum Depth of Binary Tree\Maximum Depth of Binary Tree.csproj", "{9BAB0DFD-41C3-4473-9AE5-E1F2A08B6CA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum Depth of Binary Tree", "Maximum Depth of Binary Tree\Maximum Depth of Binary Tree.csproj", "{9BAB0DFD-41C3-4473-9AE5-E1F2A08B6CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert Sorted Array to Binary Search Tree", "Convert Sorted Array to Binary Search Tree\Convert Sorted Array to Binary Search Tree.csproj", "{9724BAE9-5ACD-470F-9985-9F243AE87F18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +245,10 @@ Global
 		{9BAB0DFD-41C3-4473-9AE5-E1F2A08B6CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BAB0DFD-41C3-4473-9AE5-E1F2A08B6CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BAB0DFD-41C3-4473-9AE5-E1F2A08B6CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9724BAE9-5ACD-470F-9985-9F243AE87F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9724BAE9-5ACD-470F-9985-9F243AE87F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9724BAE9-5ACD-470F-9985-9F243AE87F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9724BAE9-5ACD-470F-9985-9F243AE87F18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
