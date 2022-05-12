@@ -175,3 +175,9 @@ Memory Usage: 45.1 MB
 Status: Accepted
 Runtime: 128 ms
 Memory Usage: 37.9 MB
+
+# Judge Circle
+75 / 75 test cases passed.
+Status: Accepted
+Runtime: 161 ms
+Memory Usage: 39.1 MB
