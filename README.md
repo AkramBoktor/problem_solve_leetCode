@@ -181,3 +181,9 @@ Memory Usage: 37.9 MB
 Status: Accepted
 Runtime: 161 ms
 Memory Usage: 39.1 MB
+
+# Hamming Weight
+601 / 601 test cases passed.
+Status: Accepted
+Runtime: 23 ms
+Memory Usage: 22.4 MB
