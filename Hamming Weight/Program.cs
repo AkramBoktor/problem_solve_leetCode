@@ -18,7 +18,7 @@ namespace Hamming_Weight
 
             while (n!=0)
             {
-                n &= (n - 1);
+                n =n& (n - 1);
                 count++;
             }
 
