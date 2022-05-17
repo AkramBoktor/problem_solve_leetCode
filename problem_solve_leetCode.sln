@@ -87,9 +87,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JudgeCircle", "JudgeCircle\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hamming Weight", "Hamming Weight\Hamming Weight.csproj", "{56681DAF-5A54-4FFB-A90E-BD1164D33B4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reverse Bits", "reverse Bits\reverse Bits.csproj", "{613848F8-D09B-437C-BB82-BEE7779B9439}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "reverse Bits", "reverse Bits\reverse Bits.csproj", "{613848F8-D09B-437C-BB82-BEE7779B9439}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Has Path Sum", "Has Path Sum\Has Path Sum.csproj", "{B490432F-C962-4A7E-B93F-B817DA979BA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Has Path Sum", "Has Path Sum\Has Path Sum.csproj", "{B490432F-C962-4A7E-B93F-B817DA979BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cells In Range", "Cells In Range\Cells In Range.csproj", "{C1F09B8F-5B76-4FDD-9990-49D681FD358E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,6 +275,10 @@ Global
 		{B490432F-C962-4A7E-B93F-B817DA979BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B490432F-C962-4A7E-B93F-B817DA979BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B490432F-C962-4A7E-B93F-B817DA979BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F09B8F-5B76-4FDD-9990-49D681FD358E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F09B8F-5B76-4FDD-9990-49D681FD358E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F09B8F-5B76-4FDD-9990-49D681FD358E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F09B8F-5B76-4FDD-9990-49D681FD358E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
