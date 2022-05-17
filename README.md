@@ -187,3 +187,9 @@ Memory Usage: 39.1 MB
 Status: Accepted
 Runtime: 23 ms
 Memory Usage: 22.4 MB
+
+# Cell in Range sheet Excel
+251 / 251 test cases passed.
+Status: Accepted
+Runtime: 247 ms
+Memory Usage: 47.1 MB
