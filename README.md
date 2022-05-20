@@ -193,3 +193,10 @@ Memory Usage: 22.4 MB
 Status: Accepted
 Runtime: 247 ms
 Memory Usage: 47.1 MB
+
+# Add Digits
+1101 / 1101 test cases passed.
+Status: Accepted
+Runtime: 28 ms
+Memory Usage: 27.3 MB
+
