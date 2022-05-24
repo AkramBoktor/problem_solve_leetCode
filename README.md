@@ -200,3 +200,8 @@ Status: Accepted
 Runtime: 28 ms
 Memory Usage: 27.3 MB
 
+# Third Distinct Maximum
+32 / 32 test cases passed.
+Status: Accepted
+Runtime: 118 ms
+Memory Usage: 38.5 MB
