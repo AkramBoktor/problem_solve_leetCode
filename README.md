@@ -211,3 +211,9 @@ Memory Usage: 38.5 MB
 Status: Accepted
 Runtime: 88 ms
 Memory Usage: 35.2 MB
+
+# Rotate String
+47 / 47 test cases passed.
+Status: Accepted
+Runtime: 99 ms
+Memory Usage: 36.6 MB
