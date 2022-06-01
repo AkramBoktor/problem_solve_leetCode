@@ -205,3 +205,9 @@ Memory Usage: 27.3 MB
 Status: Accepted
 Runtime: 118 ms
 Memory Usage: 38.5 MB
+
+# Jewels and Stones
+255 / 255 test cases passed.
+Status: Accepted
+Runtime: 88 ms
+Memory Usage: 35.2 MB
