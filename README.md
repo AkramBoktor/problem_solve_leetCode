@@ -217,3 +217,9 @@ Memory Usage: 35.2 MB
 Status: Accepted
 Runtime: 99 ms
 Memory Usage: 36.6 MB
+
+# Running sum 1d array
+53 / 53 test cases passed.
+Status: Accepted
+Runtime: 284 ms
+Memory Usage: 41.1 MB
