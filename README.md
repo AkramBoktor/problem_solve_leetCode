@@ -223,3 +223,9 @@ Memory Usage: 36.6 MB
 Status: Accepted
 Runtime: 284 ms
 Memory Usage: 41.1 MB
+
+# Find Complement
+149 / 149 test cases passed.
+Status: Accepted
+Runtime: 43 ms
+Memory Usage: 25.7 MB
