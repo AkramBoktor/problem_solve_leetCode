@@ -109,7 +109,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotate String", "Rotate Str
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Running Sum", "Running Sum\Running Sum.csproj", "{B1A3496E-8FCB-4DD9-AB06-2DC8308342C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unique Morse Code Words", "Unique Morse Code Words\Unique Morse Code Words.csproj", "{87B7CBA0-11A6-4CB7-96AE-CD923A71B9EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unique Morse Code Words", "Unique Morse Code Words\Unique Morse Code Words.csproj", "{87B7CBA0-11A6-4CB7-96AE-CD923A71B9EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindComplement", "FindC omplement\FindComplement.csproj", "{1B8D5944-8413-4D78-BA1D-1D7DAF17FF4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -333,6 +335,10 @@ Global
 		{87B7CBA0-11A6-4CB7-96AE-CD923A71B9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87B7CBA0-11A6-4CB7-96AE-CD923A71B9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87B7CBA0-11A6-4CB7-96AE-CD923A71B9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B8D5944-8413-4D78-BA1D-1D7DAF17FF4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8D5944-8413-4D78-BA1D-1D7DAF17FF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8D5944-8413-4D78-BA1D-1D7DAF17FF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8D5944-8413-4D78-BA1D-1D7DAF17FF4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
