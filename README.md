@@ -211,3 +211,21 @@ Memory Usage: 38.5 MB
 Status: Accepted
 Runtime: 88 ms
 Memory Usage: 35.2 MB
+
+# Rotate String
+47 / 47 test cases passed.
+Status: Accepted
+Runtime: 99 ms
+Memory Usage: 36.6 MB
+
+# Running sum 1d array
+53 / 53 test cases passed.
+Status: Accepted
+Runtime: 284 ms
+Memory Usage: 41.1 MB
+
+# Find Complement
+149 / 149 test cases passed.
+Status: Accepted
+Runtime: 43 ms
+Memory Usage: 25.7 MB
