@@ -235,3 +235,9 @@ Memory Usage: 25.7 MB
 Status: Accepted
 Runtime: 343 ms
 Memory Usage: 46.2 MB
+
+# Intersection Two arrays
+55 / 55 test cases passed.
+Status: Accepted
+Runtime: 150 ms
+Memory Usage: 43.9 MB
