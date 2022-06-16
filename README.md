@@ -241,3 +241,9 @@ Memory Usage: 46.2 MB
 Status: Accepted
 Runtime: 150 ms
 Memory Usage: 43.9 MB
+
+# Different two strings
+54 / 54 test cases passed.
+Status: Accepted
+Runtime: 173 ms
+Memory Usage: 38 MB
