@@ -247,3 +247,9 @@ Memory Usage: 43.9 MB
 Status: Accepted
 Runtime: 173 ms
 Memory Usage: 38 MB
+
+# Min Stack 
+31 / 31 test cases passed.
+Status: Accepted
+Runtime: 641 ms
+Memory Usage: 46.8 MB
