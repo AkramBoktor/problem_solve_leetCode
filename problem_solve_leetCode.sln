@@ -119,7 +119,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intersection of Two Arrays"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remove Elements List Nodes", "Remove Elements\Remove Elements List Nodes.csproj", "{E695764C-66C3-4B0F-89AA-EFB567949850}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find The Difference", "Find The Difference\Find The Difference.csproj", "{900B7A11-F2CF-4F06-A526-53A8A2058122}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find The Difference", "Find The Difference\Find The Difference.csproj", "{900B7A11-F2CF-4F06-A526-53A8A2058122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Min Stack", "Min Stack\Min Stack.csproj", "{463B4FE2-77FB-4DB4-8B4E-B38D2FEB98C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -363,6 +365,10 @@ Global
 		{900B7A11-F2CF-4F06-A526-53A8A2058122}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{900B7A11-F2CF-4F06-A526-53A8A2058122}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{900B7A11-F2CF-4F06-A526-53A8A2058122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463B4FE2-77FB-4DB4-8B4E-B38D2FEB98C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463B4FE2-77FB-4DB4-8B4E-B38D2FEB98C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463B4FE2-77FB-4DB4-8B4E-B38D2FEB98C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463B4FE2-77FB-4DB4-8B4E-B38D2FEB98C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
