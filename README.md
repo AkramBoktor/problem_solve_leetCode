@@ -259,3 +259,9 @@ Memory Usage: 46.8 MB
 Status: Accepted
 Runtime: 106 ms
 Memory Usage: 39.2 MB
+
+# Majority Element 
+43 / 43 test cases passed.
+Status: Accepted
+Runtime: 209 ms
+Memory Usage: 41 MB
