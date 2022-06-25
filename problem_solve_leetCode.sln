@@ -121,9 +121,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remove Elements List Nodes"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find The Difference", "Find The Difference\Find The Difference.csproj", "{900B7A11-F2CF-4F06-A526-53A8A2058122}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Min Stack", "Min Stack\Min Stack.csproj", "{463B4FE2-77FB-4DB4-8B4E-B38D2FEB98C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Min Stack", "Min Stack\Min Stack.csproj", "{463B4FE2-77FB-4DB4-8B4E-B38D2FEB98C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is Anagram", "Is Anagram\Is Anagram.csproj", "{AE9A046B-0C32-474C-AFF0-6B6B8CA27582}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Is Anagram", "Is Anagram\Is Anagram.csproj", "{AE9A046B-0C32-474C-AFF0-6B6B8CA27582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Majority Element", "Majority Element\Majority Element.csproj", "{F796C194-35AB-40C4-A9D5-6C9A22274DEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -375,6 +377,10 @@ Global
 		{AE9A046B-0C32-474C-AFF0-6B6B8CA27582}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE9A046B-0C32-474C-AFF0-6B6B8CA27582}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE9A046B-0C32-474C-AFF0-6B6B8CA27582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F796C194-35AB-40C4-A9D5-6C9A22274DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F796C194-35AB-40C4-A9D5-6C9A22274DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F796C194-35AB-40C4-A9D5-6C9A22274DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F796C194-35AB-40C4-A9D5-6C9A22274DEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
