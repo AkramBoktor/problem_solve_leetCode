@@ -127,7 +127,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Is Anagram", "Is Anagram\Is
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Majority Element", "Majority Element\Majority Element.csproj", "{F796C194-35AB-40C4-A9D5-6C9A22274DEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hamming Distance", "Hamming Distance\Hamming Distance.csproj", "{32404672-F299-47CA-A6AB-22F072619FB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hamming Distance", "Hamming Distance\Hamming Distance.csproj", "{32404672-F299-47CA-A6AB-22F072619FB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intelligence_Substring", "Intelligence_Substring\Intelligence_Substring.csproj", "{8829BEB0-C30B-479C-9D05-FA6CE55DB4F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -387,6 +389,10 @@ Global
 		{32404672-F299-47CA-A6AB-22F072619FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32404672-F299-47CA-A6AB-22F072619FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32404672-F299-47CA-A6AB-22F072619FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8829BEB0-C30B-479C-9D05-FA6CE55DB4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8829BEB0-C30B-479C-9D05-FA6CE55DB4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8829BEB0-C30B-479C-9D05-FA6CE55DB4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8829BEB0-C30B-479C-9D05-FA6CE55DB4F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
