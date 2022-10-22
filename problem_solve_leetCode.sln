@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roman_to_Integer", "problem_solve_leetCode\Roman_to_Integer.csproj", "{1F8C5E8D-EDC2-4A02-80DA-2E4652FF9F08}"
 EndProject
@@ -129,7 +129,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Majority Element", "Majorit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hamming Distance", "Hamming Distance\Hamming Distance.csproj", "{32404672-F299-47CA-A6AB-22F072619FB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intelligence_Substring", "Intelligence_Substring\Intelligence_Substring.csproj", "{8829BEB0-C30B-479C-9D05-FA6CE55DB4F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intelligence_Substring", "Intelligence_Substring\Intelligence_Substring.csproj", "{8829BEB0-C30B-479C-9D05-FA6CE55DB4F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Self Dividing Numbers", "Self Dividing Numbers\Self Dividing Numbers.csproj", "{96A91C80-3A8E-487C-950F-757846E3D306}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -393,6 +395,10 @@ Global
 		{8829BEB0-C30B-479C-9D05-FA6CE55DB4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8829BEB0-C30B-479C-9D05-FA6CE55DB4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8829BEB0-C30B-479C-9D05-FA6CE55DB4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A91C80-3A8E-487C-950F-757846E3D306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A91C80-3A8E-487C-950F-757846E3D306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A91C80-3A8E-487C-950F-757846E3D306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A91C80-3A8E-487C-950F-757846E3D306}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
