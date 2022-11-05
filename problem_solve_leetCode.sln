@@ -131,7 +131,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hamming Distance", "Hamming
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intelligence_Substring", "Intelligence_Substring\Intelligence_Substring.csproj", "{8829BEB0-C30B-479C-9D05-FA6CE55DB4F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Self Dividing Numbers", "Self Dividing Numbers\Self Dividing Numbers.csproj", "{96A91C80-3A8E-487C-950F-757846E3D306}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Self Dividing Numbers", "Self Dividing Numbers\Self Dividing Numbers.csproj", "{96A91C80-3A8E-487C-950F-757846E3D306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goat_Latin", "Goat_Latin\Goat_Latin.csproj", "{B1CA3787-4ECC-48EB-9B95-3425A53A3525}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -399,6 +401,10 @@ Global
 		{96A91C80-3A8E-487C-950F-757846E3D306}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96A91C80-3A8E-487C-950F-757846E3D306}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96A91C80-3A8E-487C-950F-757846E3D306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1CA3787-4ECC-48EB-9B95-3425A53A3525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CA3787-4ECC-48EB-9B95-3425A53A3525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CA3787-4ECC-48EB-9B95-3425A53A3525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CA3787-4ECC-48EB-9B95-3425A53A3525}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
