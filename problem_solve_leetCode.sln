@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32825.248
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roman_to_Integer", "problem_solve_leetCode\Roman_to_Integer.csproj", "{1F8C5E8D-EDC2-4A02-80DA-2E4652FF9F08}"
 EndProject
@@ -133,7 +133,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intelligence_Substring", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Self Dividing Numbers", "Self Dividing Numbers\Self Dividing Numbers.csproj", "{96A91C80-3A8E-487C-950F-757846E3D306}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goat_Latin", "Goat_Latin\Goat_Latin.csproj", "{B1CA3787-4ECC-48EB-9B95-3425A53A3525}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goat_Latin", "Goat_Latin\Goat_Latin.csproj", "{B1CA3787-4ECC-48EB-9B95-3425A53A3525}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(Medium)Add Two Numbers_LinkedList", "(Medium)Add Two Numbers_LinkedList\(Medium)Add Two Numbers_LinkedList.csproj", "{6DE6DC00-98FC-4BD9-BCA2-56A66DCBADAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -405,6 +407,10 @@ Global
 		{B1CA3787-4ECC-48EB-9B95-3425A53A3525}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1CA3787-4ECC-48EB-9B95-3425A53A3525}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1CA3787-4ECC-48EB-9B95-3425A53A3525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE6DC00-98FC-4BD9-BCA2-56A66DCBADAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE6DC00-98FC-4BD9-BCA2-56A66DCBADAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE6DC00-98FC-4BD9-BCA2-56A66DCBADAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE6DC00-98FC-4BD9-BCA2-56A66DCBADAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
