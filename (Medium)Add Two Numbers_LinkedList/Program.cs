@@ -37,42 +37,42 @@ namespace _Medium_Add_Two_Numbers_LinkedList
  
         static void Main(string[] args)
         {
-            ListNode one = new ListNode(2);
-            ListNode two = new ListNode(4);
-            ListNode three = new ListNode(3);
+            //ListNode one = new ListNode(2);
+            //ListNode two = new ListNode(4);
+            //ListNode three = new ListNode(3);
 
-            ListNode four = new ListNode(5);
-            ListNode five = new ListNode(6);
-            ListNode six = new ListNode(4);
+            //ListNode four = new ListNode(5);
+            //ListNode five = new ListNode(6);
+            //ListNode six = new ListNode(4);
 
-            //ListNode one = new ListNode(9);
-            //ListNode two = new ListNode(9);
-            //ListNode three = new ListNode(9);
-            //ListNode four = new ListNode(9);
-            //ListNode five = new ListNode(9);
-            //ListNode six = new ListNode(9);
-            //ListNode seven = new ListNode(9);
+            ListNode one = new ListNode(9);
+            ListNode two = new ListNode(9);
+            ListNode three = new ListNode(9);
+            ListNode four = new ListNode(9);
+            ListNode five = new ListNode(9);
+            ListNode six = new ListNode(9);
+            ListNode seven = new ListNode(9);
 
 
 
             one.next = two;
             two.next = three;
-
+            three.next = four;
             four.next = five;
             five.next = six;
-            //six.next = seven;
+            six.next = seven;
 
 
-            //ListNode eight = new ListNode(9);
-            //ListNode nine = new ListNode(9);
-            //ListNode ten = new ListNode(9);
-            //ListNode eleven = new ListNode(9);
+            ListNode eight = new ListNode(9);
+            ListNode nine = new ListNode(9);
+            ListNode ten = new ListNode(9);
+            ListNode eleven = new ListNode(9);
 
-            //eight.next = nine;
-            //nine.next = ten;
-            //ten.next = eleven;
+            eight.next = nine;
+            nine.next = ten;
+            ten.next = eleven;
 
-            ListNode sumOfTwoList = Program.AddTwoNumbers(one, four);
+            ListNode sumOfTwoList = Program.AddTwoNumbers(one, eight);
             while (sumOfTwoList != null)
             {
                 Console.WriteLine(sumOfTwoList.val);
@@ -82,76 +82,43 @@ namespace _Medium_Add_Two_Numbers_LinkedList
 
         public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
-       
-            int sumOfTwoDigit = 0;
-            int restOfSum = 0;
-            ListNode nodeAddTwoNumbers = new ListNode();
-            while (l1 != null || l2 !=null)
+
+            var carry = 0;
+
+            var dummy = new ListNode(-1);
+
+            var cur1 = l1;
+            var cur2 = l2;
+
+            var cur = dummy;
+
+            while (cur1 != null || cur2 != null)
             {
-                sumOfTwoDigit = 0;
-                if (restOfSum != 0 && l1 != null && l2 != null)
-                {
-                    sumOfTwoDigit = l1.val + l2.val + restOfSum;
-                    l2 = l2.next;
-                    l1 = l1.next;
-                    restOfSum = 0;
-                }
-                   
-                else if (restOfSum == 0 && l1 != null && l2 != null)
-                {
-                    sumOfTwoDigit = l1.val + l2.val;
-                    l2 = l2.next;
-                    l1 = l1.next;
-                }
-                   
-                else if (restOfSum != 0 && l1 == null && l2 != null)
-                {
-                    sumOfTwoDigit = l2.val + restOfSum;
-                    l2 = l2.next;
-                    restOfSum = 0;
-                }
+                var numberA = cur1 != null ? cur1.val : 0;
+                var numberB = cur2 != null ? cur2.val : 0;
 
-                else if (restOfSum != 0 && l1 != null && l2 == null)
-                {
-                    sumOfTwoDigit = l1.val + restOfSum;
-                    l1 = l1.next;
-                    restOfSum = 0;
+                var result = numberA + numberB + carry;
 
-                }
-                else if (restOfSum == 0 && l1 == null && l2 != null)
-                {
-                    sumOfTwoDigit = l2.val;
-                    l2 = l2.next;
+                var remainder = result % 10;
 
-                }
-                else if (restOfSum == 0 && l1 != null && l2 == null)
-                {
-                    sumOfTwoDigit = l1.val;
-                    l1 = l1.next;
+                carry = result / 10;
 
-                }
-                else
-                {
-                    sumOfTwoDigit = l2.val;
-                    l2 = l2.next;
+                cur.next = new ListNode(remainder);
 
-                }
-
-                if ( sumOfTwoDigit >= 10)
-                {
-                    restOfSum = sumOfTwoDigit / 10;
-                    sumOfTwoDigit = sumOfTwoDigit  % 10; 
-
-                }
-                ListNode newNode = new ListNode(sumOfTwoDigit);
-                newNode.next = nodeAddTwoNumbers;
-                nodeAddTwoNumbers.val = sumOfTwoDigit;
-                nodeAddTwoNumbers = newNode;
-
-
+                cur = cur.next;
+                if (cur1 != null) cur1 = cur1.next;
+                if (cur2 != null) cur2 = cur2.next;
             }
-            if (restOfSum != 0) nodeAddTwoNumbers.val = restOfSum;
-            return nodeAddTwoNumbers;
+
+            if (carry != 0)
+            {
+                cur.next = new ListNode(carry);
+            }
+
+            var head = dummy.next;
+            dummy.next = null;
+
+            return head;
         }
     }
 }
