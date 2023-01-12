@@ -135,7 +135,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Self Dividing Numbers", "Se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Goat_Latin", "Goat_Latin\Goat_Latin.csproj", "{B1CA3787-4ECC-48EB-9B95-3425A53A3525}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(Medium)Add Two Numbers_LinkedList", "(Medium)Add Two Numbers_LinkedList\(Medium)Add Two Numbers_LinkedList.csproj", "{6DE6DC00-98FC-4BD9-BCA2-56A66DCBADAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(Medium)Add Two Numbers_LinkedList", "(Medium)Add Two Numbers_LinkedList\(Medium)Add Two Numbers_LinkedList.csproj", "{6DE6DC00-98FC-4BD9-BCA2-56A66DCBADAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(Medium)Longest Substring Without Repeating Characters", "Longest Substring Without Repeating Characters\(Medium)Longest Substring Without Repeating Characters.csproj", "{234C8B78-7198-477C-98AB-122D00959F40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -411,6 +413,10 @@ Global
 		{6DE6DC00-98FC-4BD9-BCA2-56A66DCBADAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DE6DC00-98FC-4BD9-BCA2-56A66DCBADAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DE6DC00-98FC-4BD9-BCA2-56A66DCBADAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{234C8B78-7198-477C-98AB-122D00959F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234C8B78-7198-477C-98AB-122D00959F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{234C8B78-7198-477C-98AB-122D00959F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234C8B78-7198-477C-98AB-122D00959F40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
