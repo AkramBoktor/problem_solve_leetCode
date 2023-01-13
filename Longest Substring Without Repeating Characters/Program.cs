@@ -38,38 +38,41 @@ namespace Longest_Substring_Without_Repeating_Characters
             Console.WriteLine(Program.LengthOfLongestSubstring("aab"));
             Console.WriteLine(Program.LengthOfLongestSubstring("dvdf"));
         }
+
+        #region first
         public static int LengthOfLongestSubstring(string s)
         {
             if (string.IsNullOrEmpty(s)) return 0;
 
-            int longestLengthOfSubsstring = 0;
+            int longestLengthOfSubString = 0;
             int count = 0;
-            char ch = ' ';
-
             List<char> charItems = new List<char>();
             for (int i = 0; i < s.Length; i++)
             {
-                if (!charItems.Contains(s[i]))
+
+                for (int j = i; j < s.Length; j++)
                 {
-                    charItems.Add(s[i]);
-                    count++;
+                    if (!charItems.Contains(s[j]))
+                    {
+                        charItems.Add(s[j]);
+                        count++;
+                    }
+                    else
+                    {
+                        if (charItems.Count > count)
+                            count = charItems.Count;
+
+                        charItems.Clear();
+                        break;
+                    }
                 }
-                else
-                {
-                    if (charItems.Count > count)
-                        count = charItems.Count;
+                longestLengthOfSubString = longestLengthOfSubString > count ? longestLengthOfSubString : count;
 
-                    charItems.Clear();
-                    charItems.Add(s[i]);
-
-              
-                    longestLengthOfSubsstring =longestLengthOfSubsstring > count ? longestLengthOfSubsstring: count;
-
-                    count = 1;
-                }
+                count = 0;
             }
 
-            return longestLengthOfSubsstring > count ? longestLengthOfSubsstring : count;
+            return longestLengthOfSubString > count ? longestLengthOfSubString : count;
         }
+        #endregion 
     }
 }
