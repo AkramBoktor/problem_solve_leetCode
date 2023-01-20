@@ -30,6 +30,7 @@ Constraints:
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace _Medium_SubarraysDivByK
 {
@@ -45,30 +46,81 @@ namespace _Medium_SubarraysDivByK
         {
             #region Time Limit Exceeded
 
-            if ( nums.Length == 0) return 0;
-            
-            if (nums.Length == 1 )
-                return nums[0] % k == 0 ?  1 : 0;
-            
+            //if ( nums.Length == 0) return 0;
+
+            //if (nums.Length == 1 )
+            //    return nums[0] % k == 0 ?  1 : 0;
+
+            //int count = 0;
+            //int sum = 0; 
+            //for (int i = 0; i < nums.Length; i++)
+            //{
+            //    sum = nums[i];
+            //    if (sum % k == 0) count++;
+            //    for (int j = i+1; j < nums.Length; j++)
+            //    {
+            //        sum += nums[j];
+            //        if( sum % k == 0)
+            //        {
+            //            count++;
+            //        }
+            //    }
+            //}
+
+
+            //return count;
+
+            #endregion
+
+            #region
+            //int[] count = new int[k];
+            //count[0] = 1;
+            //int sum = 0;
+            //int ans = 0;
+            //foreach (int x in nums)
+            //{
+            //    sum = (sum + x) % k;
+            //    if (sum < 0)
+            //    {
+            //        sum += k;
+            //    }
+            //    ans += count[sum];
+            //    count[sum]++;
+            //}
+            //return ans;
+            #endregion
+
+            #region
+            Dictionary<int, int> map = new Dictionary<int, int>();
+            int prefixSum = 0;
             int count = 0;
-            int sum = 0; 
+            //insert an extra 0 because if a sum is divisible by k so we have to add it in the answer
+            map[0] = 1;
             for (int i = 0; i < nums.Length; i++)
             {
-                sum = nums[i];
-                if (sum % k == 0) count++;
-                for (int j = i+1; j < nums.Length; j++)
+                // Prefix sum which will have sum of all previous elements.
+                prefixSum += nums[i];
+
+                // Mod by k
+                int rem = prefixSum % k;
+                //if the remainder is negative then its positve complementary will be (rem+k) 
+                if (rem < 0)
+                    rem += k;
+
+                if (map.ContainsKey(rem))
                 {
-                    sum += nums[j];
-                    if( sum % k == 0)
-                    {
-                        count++;
-                    }
+                    //diff = prefix[b] - prefix[a] = 0 => prefix[b] = prefix[a] 
+                    count += map[rem];
+                    map[rem] += 1;
                 }
+                else
+                {
+                    map[rem] = 1;
+                }
+
             }
 
-
             return count;
-
             #endregion
         }
     }
