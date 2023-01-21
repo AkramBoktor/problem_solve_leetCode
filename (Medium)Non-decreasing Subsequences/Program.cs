@@ -35,7 +35,8 @@ namespace _Medium_Non_decreasing_Subsequences
         public static IList<IList<int>> FindSubsequences(int[] nums)
         {
             HashSet<List<int>> Subsequences = new HashSet<List<int>>();
-            List<int> subList = new List<int>() ;
+            HashSet<List<int>> newSubsequences = new HashSet<List<int>>();
+            List<int> subList = new List<int>();
             List<int> appendedList = new List<int>();
 
             for (int i = 0; i < nums.Length; i++)
@@ -53,16 +54,25 @@ namespace _Medium_Non_decreasing_Subsequences
                             {
                                var appendedItem =  item.Append(nums[j]);
                                 if (Subsequences.Contains(appendedItem)) continue;
-                                else appendedList.Add(appendedItem.Select(c).ToList());
+                                else
+                                {
+                                    appendedList.AddRange(appendedItem);
+                                    newSubsequences.Add(appendedList);
+                                }
 
                             }
 
-                            Subsequences.Add(appendedList);
+
+
                         }
+
+                       
+
                     }
                 }
                 subList = null;
             }
+            Subsequences.UnionWith(newSubsequences);
             return (IList<IList<int>>)Subsequences;
         }
     }
