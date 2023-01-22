@@ -145,6 +145,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(Medium)SubarraysDivByK", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(Medium)Non-decreasing Subsequences", "(Medium)Non-decreasing Subsequences\(Medium)Non-decreasing Subsequences.csproj", "{FC1B839A-57C7-4AE2-94A8-D8E5C9B99C16}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(Medium)Palindrome Partitioning", "(Medium)Palindrome Partitioning\(Medium)Palindrome Partitioning.csproj", "{2316D181-73E5-43D3-9C7E-EA87C5DB5686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveZeroes", "MoveZeroes\MoveZeroes.csproj", "{29DCCA5B-70F9-4312-ABA8-86311B423E25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -435,6 +439,14 @@ Global
 		{FC1B839A-57C7-4AE2-94A8-D8E5C9B99C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC1B839A-57C7-4AE2-94A8-D8E5C9B99C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC1B839A-57C7-4AE2-94A8-D8E5C9B99C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2316D181-73E5-43D3-9C7E-EA87C5DB5686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2316D181-73E5-43D3-9C7E-EA87C5DB5686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2316D181-73E5-43D3-9C7E-EA87C5DB5686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2316D181-73E5-43D3-9C7E-EA87C5DB5686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29DCCA5B-70F9-4312-ABA8-86311B423E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DCCA5B-70F9-4312-ABA8-86311B423E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DCCA5B-70F9-4312-ABA8-86311B423E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DCCA5B-70F9-4312-ABA8-86311B423E25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
