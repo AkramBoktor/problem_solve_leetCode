@@ -59,3 +59,36 @@ namespace _Meduim_Permutations
         }
     }
 }
+
+
+/* 
+ * another solution dfs
+ * public class Solution {
+    public IList<IList<int>> Permute(int[] nums) {
+        
+        List<IList<int>> res = new List<IList<int>>();
+        Backtracking(nums, new List<int>(), res);
+        return res;
+    }
+    
+    private void Backtracking(int[] nums, List<int> list, List<IList<int>> res)
+    {
+        if(list.Count == nums.Length)
+        {
+            res.Add(new List<int>(list));
+            return;
+        }
+        else
+        {
+            for(int i = 0; i < nums.Length; i++)
+            {
+                if(list.Contains(nums[i]))
+                    continue;
+                list.Add(nums[i]);
+                Backtracking(nums, list, res);
+                list.RemoveAt(list.Count -1);
+            }
+        }
+    }
+}
+*/
