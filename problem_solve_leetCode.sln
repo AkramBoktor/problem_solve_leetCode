@@ -147,9 +147,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(Medium)Non-decreasing Subs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(Medium)Palindrome Partitioning", "(Medium)Palindrome Partitioning\(Medium)Palindrome Partitioning.csproj", "{2316D181-73E5-43D3-9C7E-EA87C5DB5686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveZeroes", "MoveZeroes\MoveZeroes.csproj", "{29DCCA5B-70F9-4312-ABA8-86311B423E25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveZeroes", "MoveZeroes\MoveZeroes.csproj", "{29DCCA5B-70F9-4312-ABA8-86311B423E25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nim Game", "Nim Game\Nim Game.csproj", "{6CC80CCA-91D1-49FC-9ED4-054B7D9219E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nim Game", "Nim Game\Nim Game.csproj", "{6CC80CCA-91D1-49FC-9ED4-054B7D9219E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(Meduim)Permutations", "(Meduim)Permutations\(Meduim)Permutations.csproj", "{D8AF224E-4613-45BF-9B32-C874CA53765B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -453,6 +455,10 @@ Global
 		{6CC80CCA-91D1-49FC-9ED4-054B7D9219E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CC80CCA-91D1-49FC-9ED4-054B7D9219E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CC80CCA-91D1-49FC-9ED4-054B7D9219E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8AF224E-4613-45BF-9B32-C874CA53765B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8AF224E-4613-45BF-9B32-C874CA53765B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8AF224E-4613-45BF-9B32-C874CA53765B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8AF224E-4613-45BF-9B32-C874CA53765B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
