@@ -29,7 +29,7 @@ namespace _Meduim_Permutations
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Permute(new int[] { 1 , 2 , 3 }));
+            Console.WriteLine(string.Join("," ,Permute(new int[] { 1 , 2 , 3 })));
         }
 
         public static  IList<IList<int>> Permute(int[] nums)
@@ -91,4 +91,38 @@ namespace _Meduim_Permutations
         }
     }
 }
+
+
+
+solution 2
+public IList<IList<int>> Permute(int[] nums) {
+        
+        var result = new List<IList<int>>();
+        if(nums.Length < 1)
+            return result;
+        var hs = new HashSet<int>();
+        Permute(nums,hs,result);
+        return result;
+    }
+    
+    private void Permute(int[] nums,HashSet<int> hs,List<IList<int>> result)
+    {
+        if(hs.Count == nums.Length)
+        {
+            result.Add(hs.ToList());
+        }
+        else
+        {
+            for(int i=0;i<nums.Length;i++)
+            {
+                if(!hs.Contains(nums[i]))
+                {
+                    hs.Add(nums[i]);
+                    Permute(nums,hs,result);
+                    hs.Remove(nums[i]);
+                }
+            }
+        }
+    
+    }
 */
