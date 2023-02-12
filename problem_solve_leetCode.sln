@@ -153,7 +153,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nim Game", "Nim Game\Nim Ga
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(Medium)Permutations", "(Meduim)Permutations\(Medium)Permutations.csproj", "{D8AF224E-4613-45BF-9B32-C874CA53765B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(Medium)Permutations II", "(Medium)Permutations II\(Medium)Permutations II.csproj", "{7E545A06-B9A9-41BB-9E09-69406171BDC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(Medium)Permutations II", "(Medium)Permutations II\(Medium)Permutations II.csproj", "{7E545A06-B9A9-41BB-9E09-69406171BDC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(Meduim)CombinationSum", "(Meduim)CombinationSum\(Meduim)CombinationSum.csproj", "{4C32B31D-9260-4C13-96A0-52A297B27690}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -465,6 +467,10 @@ Global
 		{7E545A06-B9A9-41BB-9E09-69406171BDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E545A06-B9A9-41BB-9E09-69406171BDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E545A06-B9A9-41BB-9E09-69406171BDC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C32B31D-9260-4C13-96A0-52A297B27690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C32B31D-9260-4C13-96A0-52A297B27690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C32B31D-9260-4C13-96A0-52A297B27690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C32B31D-9260-4C13-96A0-52A297B27690}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
