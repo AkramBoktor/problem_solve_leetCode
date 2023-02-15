@@ -48,24 +48,50 @@ namespace _Meduim_CombinationSum
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int []arr = new int[] { 8,6,4,2 };
+
+            int sum = 8;
+
+            List<List<int>> ans
+                = CombinationSum(arr, sum);
+
+            // If result is empty, then
+            if (ans.Count == 0)
+            {
+                Console.WriteLine("Empty");
+                return;
+            }
+
+            // print all combinations stored in ans
+
+            for (int i = 0; i < ans.Count; i++)
+            {
+
+                Console.Write("(");
+                for (int j = 0; j < ans[i].Count; j++)
+                {
+                    Console.Write(ans[i][j] + " ");
+                }
+                Console.Write(") ");
+            }
+
         }
 
-        public static IList<IList<int>> CombinationSum(int[] candidates, int target)
+        public static List<List<int>> CombinationSum(int[] candidates, int target)
         {
             List<List<int>> result = new List<List<int>>();
             List<int> temp = new List<int>();
 
             HashSet<int> setOfArrays = new HashSet<int>(candidates.ToList());
             Array.Clear(candidates, 0, candidates.Length);
-            candidates.ToList().AddRange(setOfArrays);
+            candidates = setOfArrays.ToArray();
             Array.Sort(candidates);
+            findCombination(result, candidates, target ,temp , 0);
 
-            findCombination(result, candidates, target ,temp);
-            return null;
+            return result ;
         }
 
-        private static void findCombination(List<List<int>> result, int[] candidates, int target ,List<int> temp)
+        private static void findCombination(List<List<int>> result, int[] candidates, int target ,List<int> temp , int index )
         {
             if( target == 0)
             {
@@ -74,11 +100,13 @@ namespace _Meduim_CombinationSum
                 return;
             }
 
-            for (int i = 0; i < candidates.Length; i++)
+            for (int i = index; i < candidates.Length; i++)
             {
-                if(target - candidates[i] >= 0)
+                if((target - candidates[i]) >= 0)
                 {
-
+                    temp.Add(candidates[i]);
+                    findCombination(result, candidates, target - candidates[i], temp , i);
+                    temp.Remove(candidates[i]);
                 }
             }
         }
