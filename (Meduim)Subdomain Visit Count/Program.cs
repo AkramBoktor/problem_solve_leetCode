@@ -30,7 +30,7 @@ namespace _Meduim_Subdomain_Visit_Count
                         }
                         else
                         {
-                            subDomainsVisist.Add(repetNumer.ToString() + " " + domainStringSplit[i] + domainStringSplit.Last());
+                            subDomainsVisist.Add(repetNumer.ToString() + " " + domainStringSplit[i] + "."+ domainStringSplit.Last());
 
                         }
                     }
@@ -41,7 +41,7 @@ namespace _Meduim_Subdomain_Visit_Count
                     {
                         int repetNumber = int.Parse(Regex.Match(domain, @"\d+").Value);
                         var ElementExists = subDomainsVisist.Select((Value, Index) => new { Value, Index })
-                 .Where(s=>s.Value.Contains(domainStringSplit.Last())).ToList();
+                                           .Where(s=>s.Value.Contains(domainStringSplit.Last()) && Regex.IsMatch(s.Value, @"^([0-9]){1,10}\.([a-zA-Z]){1,3}$")).ToList();
                        int countDuplicated = repetNumber + int.Parse(Regex.Match(ElementExists[0].Value, @"\d+").Value);
                         subDomainsVisist[ElementExists[0].Index] = countDuplicated.ToString() + "." + domainStringSplit.Last();
 
